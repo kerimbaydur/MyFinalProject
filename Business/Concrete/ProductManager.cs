@@ -23,6 +23,7 @@ namespace Business.Concrete
         {
             //İş kodları;
             return _inProductDal.GetAll();
+            //kerims
 
 
 
