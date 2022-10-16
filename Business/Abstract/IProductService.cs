@@ -21,6 +21,7 @@ namespace Business.Abstract
         IResult Update(Product product);
 
         IDataResult<List<ProductDetailDto>> GetProductDetails();
+        IResult TransactionalOperation(Product product);
     }
 
 
